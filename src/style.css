@@ -30,6 +30,10 @@ strong {
   border-radius: 20px;
 }
 
+.search-form {
+  max-width: 95%;
+}
+
 .search-form-input {
   background: #fdfdfd;
   width: 70%;
