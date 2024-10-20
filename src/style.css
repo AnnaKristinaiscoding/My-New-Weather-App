@@ -1,5 +1,5 @@
 body {
-  background-color: #aababe;
+  background-color: rgba(23, 89, 125, 0.5);
   font-family: "Roboto", monospace, sans-serif;
   color: #fdfdfd;
 }
@@ -21,9 +21,6 @@ strong {
   color: #80b9ad;
 }
 
-h3 {
-  color: #80b9ad;
-}
 .weather-app {
   background: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
   max-width: 400px;
@@ -40,14 +37,14 @@ h3 {
   border-radius: 6px;
   padding: 14px;
   font-size: 16px;
-  margin-left: 15px;
+  margin-left: 9px;
   box-shadow: 5px 5px 10px rgba(87, 84, 87, 0.8);
 }
 .search-form-button {
-  background: #80b9ad;
+  background: rgba(23, 89, 125, 0.3);
   color: white;
   border-radius: 6px;
-  padding: 14px 12px;
+  padding: 14px 18px;
   border: none;
   font-size: 16px;
   margin-left: 15px;
@@ -61,8 +58,9 @@ h3 {
 }
 
 .city-header h1 {
-  font-size: 50px;
+  font-size: 46px;
   font-weight: 300;
+  padding: 20px 0 7px;
 }
 
 .city-header h3 {
@@ -70,6 +68,7 @@ h3 {
   font-weight: 300;
   letter-spacing: 3px;
   padding-bottom: 30px;
+  color: #80b9ad;
 }
 
 .weather-data {
@@ -98,7 +97,10 @@ h3 {
 .weather-icon {
   position: relative;
   left: 4px;
-  bottom: 4px;
-  width: 100px;
-  height: 100px;
+  width: 95px;
+  height: 95px;
+}
+
+.weather-data {
+  padding-bottom: 20px;
 }
