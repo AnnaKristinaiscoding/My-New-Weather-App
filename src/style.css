@@ -97,6 +97,8 @@ h3 {
 }
 .weather-icon {
   position: relative;
-  bottom: 15px;
-  font-size: 90px;
+  left: 4px;
+  bottom: 4px;
+  width: 100px;
+  height: 100px;
 }
