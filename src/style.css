@@ -107,5 +107,35 @@ strong {
 }
 
 .weather-data {
-  padding-bottom: 20px;
+  padding-bottom: 30px;
+}
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-forecast-day {
+  text-align: center;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 6px;
+}
+
+.weather-forecast-icon {
+  text-align: center;
+  font-size: 26px;
+}
+
+.weather-forecast-temperatures {
+  text-align: center;
+  font-size: 14px;
+  color: #80b9ad;
+  display: flex;
+  justify-content: center;
+  margin: 6px 0 50px;
+}
+
+.weather-forecast-temperature {
+  padding: 0 6px;
 }
