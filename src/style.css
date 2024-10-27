@@ -88,20 +88,20 @@ strong {
 }
 .temperature-unit {
   font-size: 30px;
+  font-weight: 300;
   position: relative;
   top: 10px;
-  font-weight: 300;
 }
 .weather-description {
+  line-height: 24px;
+  font-size: 14px;
   position: relative;
   top: 10px;
-  line-height: 24px;
   left: 15px;
-  font-size: 14px;
 }
 .weather-icon {
   position: relative;
-  left: 4px;
+  right: 10px;
   width: 95px;
   height: 95px;
 }
@@ -139,5 +139,5 @@ strong {
 }
 
 .weather-forecast-temperature {
-  padding: 0 6px;
+  padding: 0 5px;
 }
